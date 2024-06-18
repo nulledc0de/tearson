@@ -8,7 +8,7 @@
 
 - **hooks `GetProcAddress`**: intercepts calls to this function to prevent vm & hook detection mechanisms.
 - **hooks pearsons `report_post`**: blocks the function responsible for sending reports and detections completely.
-- **hooks `HidCheckVM`**: bypasses the pearsons vm checks to prevent the detection of any virtual machine software.
+- **hooks `HidCheckVM`**: bypasses the pearson vm checks to prevent the detection of any virtual machine software.
 
 ## installation
 
