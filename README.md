@@ -7,8 +7,8 @@
 ## features
 
 - **hooks `GetProcAddress`**: intercepts calls to this function to prevent vm & hook detection mechanisms.
-- **prevents pearson from sending report_post_request**: blocks the function responsible for sending reports and detections completely.
-- **hides vm**: bypasses the pearsons vm checks to prevent the detection of any virtual machine software.
+- **hooks pearsons `report_post`**: blocks the function responsible for sending reports and detections completely.
+- **hooks `HidCheckVM`**: bypasses the pearsons vm checks to prevent the detection of any virtual machine software.
 
 ## installation
 
@@ -26,3 +26,9 @@
 ## disclaimer
 
 this project is for educational and research purposes only. use of this tool to cheat in exams is not recommended. the author does not condone or support any illegal activities and is not responsible for any misuse of this project.
+
+## credits
+
+this project uses [minhook](https://github.com/TsudaKageyu/minhook), a lightweight x86/x64 api hooking library for windows.
+
+minhook is licensed under the [BSD license](https://github.com/TsudaKageyu/minhook/blob/master/LICENSE.md).
