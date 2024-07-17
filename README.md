@@ -2,7 +2,7 @@
 
 ## overview
 
-**tearson** is a proof-of-concept project designed to bypass the security measures of the pearson lockdown browser vm. this tool injects hooks into the pearson executable as it opens, intercepting various function calls to prevent the detection of a virtual machine and other security checks.
+**tearson** is a proof-of-concept project designed to bypass the security measures of the pearson lockdown browser. this tool injects hooks into the pearson executable as it opens, intercepting various function calls to prevent the detection of a virtual machine and other security checks.
 
 ## features
 
